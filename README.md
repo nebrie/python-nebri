@@ -8,12 +8,12 @@ This app is intended for use with a NebriOS instance. Visit https://nebrios.com 
 This app can be installed via PyPi:
 
 ```
-pip install python-nebrios
+pip install git+https://github.com/briem-bixly/python-nebrios#egg=python-nebrios
 ```
 
 <h2>Usage Example</h2>
 ```
-from nebrios_client.nebrios_client import NebriOSClient
+from nebrios_client import NebriOSClient
 
 
 client = NebriOSClient('demo')
