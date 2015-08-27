@@ -1,2 +1,2 @@
-# nebrios-python-client
+# python-nebrios
 Python Client for NebriOS
