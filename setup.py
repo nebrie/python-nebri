@@ -9,6 +9,5 @@ setup(
     packages=find_packages(),
     url='http://github.com/briem-bixly/python-nebrios/',
     author='briem-bixly',
-    long_description=open('README.md').read(),
     include_package_data=True,
 )
