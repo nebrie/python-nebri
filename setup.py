@@ -1,16 +1,13 @@
-from setuptools import setup, find_packages
-
-import nebrios_client
+from setuptools import setup
 
 setup(
     name='python-nebrios',
-    version=nebrios_client.__version__,
-    description=nebrios_client.__doc__,
-    packages=find_packages(),
+    version='0.1.3',
+    description="python-nebrios is a simple and easy-to-use package to make nebrios api requests from a python application.",
+    packages=['nebrios_client'],
     url='http://github.com/briem-bixly/python-nebrios/',
     author='briem-bixly',
-    include_package_data=True,
     install_requires=[
-        'requests',
+        'requests==2.7.0',
     ]
 )
