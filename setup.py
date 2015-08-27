@@ -10,4 +10,7 @@ setup(
     url='http://github.com/briem-bixly/python-nebrios/',
     author='briem-bixly',
     include_package_data=True,
+    install_requires=[
+        'requests',
+    ]
 )
