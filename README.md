@@ -20,7 +20,7 @@ Currently, this client only supports making api requests.
 - payload (optional): an object containing params and values
 - files (optional): any files that you would like to upload via a POST request
 
-<h2>Examples</h2>
+<h2>Example</h2>
 ```
 from nebrios_client import NebriOSClient
 
