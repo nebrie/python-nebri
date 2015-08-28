@@ -13,6 +13,7 @@ pip install git+https://github.com/briem-bixly/python-nebrios#egg=python-nebrios
 
 <h2>Usage</h2>
 Currently, this client only supports making api requests.
+
 <strong>NebriOSClient.api_request</strong>
 - api_module: the name of the api module stored on your NebriOS instance
 - view_name: the name of the target function contained in the given api module
