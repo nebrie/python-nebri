@@ -12,6 +12,13 @@ pip install git+https://github.com/briem-bixly/python-nebrios#egg=python-nebrios
 ```
 
 <h2>Usage</h2>
+In order to use this component to make NebriOS api requests, you must instantiate the class.
+```
+nebri = NebriOSClient('instance_name')
+```
+- instance name is your NebriOS instance name. i.e. https://<strong>instance_name</strong>.nebrios.com
+
+<h2>Public Functions</h2>
 Currently, this client only supports making api requests.
 
 <strong>NebriOSClient.api_request</strong>
