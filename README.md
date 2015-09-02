@@ -25,6 +25,7 @@ Currently, this client only supports making api requests.
 - api_module: the name of the api module stored on your NebriOS instance
 - view_name: the name of the target function contained in the given api module
 - method: the desired HTTP request method
+- headers (optional): any custom headers you would like added to your request
 - payload (optional): an object containing params and values
 - files (optional): any files that you would like to upload via a POST request
 
