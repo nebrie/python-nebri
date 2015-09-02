@@ -34,8 +34,7 @@ Currently, this client only supports making api requests.
 from nebrios_client import NebriOSClient
 
 
-client = NebriOSClient('demo')
-response = client.api_request('greeting_api', 'start_greeting', payload={'greeting':'hello'})
-print response
-# prints {u'message': u'Hi! How are you?', u'identifier': u'fbbd578a8f1d46d483efb5992e32b265', u'greeting': u'hello'}
+client = NebriOSClient('instance_name')
+client.api_request('api_module', 'view_name', payload=json_payload)
+# outputs api response
 ```
