@@ -5,7 +5,7 @@ The simple and easy-to-use package for making NebriOS api requests from a python
 This app is intended for use with a NebriOS instance. Visit https://nebrios.com to sign up for free!
 
 <h2>Installation</h2>
-This app can be installed via PyPi:
+This app can be installed via pip:
 
 ```
 pip install git+https://github.com/briem-bixly/python-nebrios#egg=python-nebrios
