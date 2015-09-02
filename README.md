@@ -8,7 +8,7 @@ This app is intended for use with a NebriOS instance. Visit https://nebrios.com 
 This app can be installed via pip:
 
 ```
-pip install git+https://github.com/briem-bixly/python-nebrios#egg=python-nebrios
+pip install python-nebrios
 ```
 
 <h2>Usage</h2>
