@@ -8,7 +8,7 @@ This app is intended for use with a Nebri instance. Visit https://nebrios.com to
 This app can be installed via pip:
 
 ```
-pip install python-nebrios
+pip install python-nebri
 ```
 
 <h2>Usage</h2>
